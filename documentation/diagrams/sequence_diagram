@@ -1,0 +1,14 @@
+digraph Sequence_Diagram {
+	bgcolor=white
+	User [label=User]
+	Interface [label=Interface]
+	QuantumKMeans [label=QuantumKMeans]
+	Circuit [label=Circuit]
+	Visualizer [label=Visualizer]
+	User -> Interface [label="1: load_data()"]
+	Interface -> QuantumKMeans [label="2: initialize()"]
+	QuantumKMeans -> Circuit [label="3: create_circuit()"]
+	Circuit -> QuantumKMeans [label="4: return circuit"]
+	QuantumKMeans -> Visualizer [label="5: plot_results()"]
+	Visualizer -> User [label="6: show_visualization()"]
+}

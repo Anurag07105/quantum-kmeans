@@ -1,0 +1,10 @@
+README.md
+setup.py
+quantum_kmeans.egg-info/PKG-INFO
+quantum_kmeans.egg-info/SOURCES.txt
+quantum_kmeans.egg-info/dependency_links.txt
+quantum_kmeans.egg-info/requires.txt
+quantum_kmeans.egg-info/top_level.txt
+tests/__init__.py
+tests/test_classical_kmeans.py
+tests/test_quantum_kmeans.py

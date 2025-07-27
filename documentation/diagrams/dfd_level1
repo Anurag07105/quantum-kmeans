@@ -1,0 +1,17 @@
+digraph DFD_Level1 {
+	bgcolor=white
+	Input [label="Data Input"]
+	Preprocess [label="Data
+Preprocessing"]
+	Quantum [label="Quantum
+Processing"]
+	Classical [label="Classical
+Processing"]
+	Result [label="Result
+Visualization"]
+	Input -> Preprocess
+	Preprocess -> Quantum
+	Preprocess -> Classical
+	Quantum -> Result
+	Classical -> Result
+}

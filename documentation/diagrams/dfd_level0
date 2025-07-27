@@ -1,0 +1,12 @@
+digraph DFD_Level0 {
+	bgcolor=white
+	User [label=User]
+	System [label="Quantum K-means
+Clustering System"]
+	Database [label="Data
+Storage"]
+	User -> System [label="Input Data"]
+	System -> User [label="Clustering Results"]
+	System -> Database [label="Store Results"]
+	Database -> System [label="Retrieve Data"]
+}

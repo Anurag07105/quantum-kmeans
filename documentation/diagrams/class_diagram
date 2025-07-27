@@ -1,0 +1,8 @@
+digraph Class_Diagram {
+	bgcolor=white
+	QuantumKMeans [label="QuantumKMeans|n_clusters: int\lquantum_circuit: QuantumCircuit\lbackend: QiskitBackend\lfit()\lpredict()\l_create_circuit()\l" shape=record]
+	DataPreprocessor [label="DataPreprocessor|scaler: StandardScaler\lnormalize()\ltransform()\linverse_transform()\l" shape=record]
+	Visualizer [label="Visualizer|plot_results()\lplot_clusters()\lsave_figures()\l" shape=record]
+	QuantumKMeans -> DataPreprocessor
+	QuantumKMeans -> Visualizer
+}

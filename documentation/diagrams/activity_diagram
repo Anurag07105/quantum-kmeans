@@ -1,0 +1,20 @@
+digraph Activity {
+	bgcolor=white
+	A0 [label=Start]
+	A1 [label="Load Data"]
+	A0 -> A1
+	A2 [label=Preprocess]
+	A1 -> A2
+	A3 [label="Initialize Quantum Circuit"]
+	A2 -> A3
+	A4 [label="Calculate Distances"]
+	A3 -> A4
+	A5 [label="Update Centroids"]
+	A4 -> A5
+	A6 [label="Check Convergence"]
+	A5 -> A6
+	A7 [label="Generate Results"]
+	A6 -> A7
+	A8 [label=End]
+	A7 -> A8
+}

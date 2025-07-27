@@ -1,0 +1,8 @@
+digraph ER_Diagram {
+	bgcolor=white
+	Dataset [label="Dataset|id\lname\lfeatures\l" shape=record]
+	Cluster [label="Cluster|id\lcentroid\lsize\l" shape=record]
+	Result [label="Result|id\laccuracy\ltime\l" shape=record]
+	Dataset -> Cluster [label="belongs to"]
+	Cluster -> Result [label=produces]
+}

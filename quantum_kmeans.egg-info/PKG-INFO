@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: quantum-kmeans
+Version: 0.1.0
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: qiskit>=0.39.0
+Requires-Dist: qiskit[visualization]>=0.39.0
+Requires-Dist: scikit-learn>=0.24.2
+Requires-Dist: matplotlib>=3.4.3
+Requires-Dist: seaborn>=0.11.2
+Requires-Dist: pytest>=7.0.0
+Dynamic: requires-dist
+Dynamic: requires-python
